@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.main {
+  display: flex;
+  gap: 5rem;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+  padding: 1.5rem 0;
+}
+
+/* ***************  MAIN ************** */
+
+.about {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  margin: 2rem;
+}
+
+.work {
+  margin: 1rem 0;
+}
+
+.work a:link,
+.work a:visited {
+  color: #4424ae;
+  text-decoration: none;
+}
